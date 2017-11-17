@@ -1,5 +1,5 @@
 #include "Customer.h"
-#include "Dialogue.h"
+
 		Customer::~Customer() {}
 void 	Customer::AddDialogue	(Dialogue dialogue) 	{ Dialogues 	= dialogue; }
 void 	Customer::Print()
