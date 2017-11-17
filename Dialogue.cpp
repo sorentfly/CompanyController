@@ -1,4 +1,5 @@
 #include "Dialogue.h"
+		Dialogue::~Dialogue() {}
 void 	Dialogue::Print()
 {
 	cout<<"|-|-|-|-|-|-|"<<

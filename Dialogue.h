@@ -1,7 +1,12 @@
+#pragma once
+#ifndef DIALOGUE_H
+#define DIALOGUE_H
+
 #include <stdio.h>
 #include <iostream>
-// #include "City.h"
+#include "City.h"
 using namespace std;
+
 class Dialogue
 {
 	private:
@@ -14,3 +19,4 @@ class Dialogue
 		~Dialogue();
 		void Print();
 };
+#endif
