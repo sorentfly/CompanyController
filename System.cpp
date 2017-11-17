@@ -1,9 +1,9 @@
 #include "System.h"
-        System::~System() {}
-        System::System() 
-        {
-
-        }
+System::~System() {}
+System::System() 
+{
+    Customers[0] = new Customer();
+}
 void 	System::Print()
 {
     cout<<"|-|-|-|-|-|-|-|-|-|"<<
